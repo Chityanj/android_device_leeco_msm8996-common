@@ -244,7 +244,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     ebtables \
     ethertypes \
-    libebtc
+    libebtc \
+    ethertypes
+
+# LePref settigs modules
+PRODUCT_PACKAGES += \
+    LePref
 
 # Keymaster
 PRODUCT_PACKAGES += \
