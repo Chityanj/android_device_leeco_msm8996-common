@@ -14,8 +14,8 @@
 
     <application
         android:label="LePref"
-        android:persistent="true">
-
+        android:persistent="true"
+        android:theme="@android:style/Theme.DeviceDefault.Settings">
         <activity
             android:name=".LePrefSettings"
             android:label="@string/lepref_title"
